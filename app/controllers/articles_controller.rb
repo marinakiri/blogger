@@ -39,7 +39,7 @@ class ArticlesController < ApplicationController
 
 		flash.notice = "Article '#{@article.title}' Deleted!"
 
-		redirect_to articles_path # ligne qui bug
+		redirect_to articles_path
 	end
 
 	def edit
